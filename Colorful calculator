@@ -1,0 +1,22 @@
+from colorama import init
+from colorama import Fore, Back, Style
+print(Back.GREEN)
+print(Fore.BLACK)
+a = input("What are we doing?( +; -; /; *):")
+print(Back.LIGHTBLACK_EX)
+b = float(input("Enter first number:"))
+print(Back.LIGHTMAGENTA_EX)
+c = float(input("Enter second number:"))
+print(Back.CYAN)
+if a == "+":
+    s = b+c
+    print(str(c))
+if a == "-":
+    s = b-c
+    print(str(s))
+if a == "/":
+    s = b/c
+    print(str(s))
+if a == "*":
+    s = b*c
+    print(str(s))
